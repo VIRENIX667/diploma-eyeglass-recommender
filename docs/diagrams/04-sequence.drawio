@@ -1,0 +1,109 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="2YmuKpp7XH9o-p8JJ15K">
+    <mxGraphModel dx="865" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pYyibpMPFkazpCoWwxyG-8" edge="1" parent="1" source="pYyibpMPFkazpCoWwxyG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=#000000;strokeColor=#000000;" target="pYyibpMPFkazpCoWwxyG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-9" connectable="0" parent="pYyibpMPFkazpCoWwxyG-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=#000000;fontSize=9;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); font-family: -webkit-standard; text-align: start; white-space: normal;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;uploadPhoto(imageFile)&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1065" as="geometry">
+            <mxPoint x="5" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;fontColor=#000000;strokeColor=#000000;" value="Пользователь&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-10" edge="1" parent="1" source="pYyibpMPFkazpCoWwxyG-2" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=#000000;" target="pYyibpMPFkazpCoWwxyG-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-15" edge="1" parent="1" source="pYyibpMPFkazpCoWwxyG-2" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=#000000;" target="pYyibpMPFkazpCoWwxyG-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="299.9999999999999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-27" edge="1" parent="1" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=#000000;dashed=1;" target="pYyibpMPFkazpCoWwxyG-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="290" />
+            </Array>
+            <mxPoint x="220" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=#FFFFFF;strokeColor=#000000;" value="WebController" vertex="1">
+          <mxGeometry height="380" width="100" x="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-14" edge="1" parent="1" source="pYyibpMPFkazpCoWwxyG-3" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=#000000;dashed=1;" target="pYyibpMPFkazpCoWwxyG-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290.0000000000001" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=#FFFFFF;strokeColor=#000000;" value="FaceAnalyzer" vertex="1">
+          <mxGeometry height="300" width="100" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-17" edge="1" parent="1" source="pYyibpMPFkazpCoWwxyG-18" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=#000000;" target="pYyibpMPFkazpCoWwxyG-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-23" edge="1" parent="1" source="pYyibpMPFkazpCoWwxyG-6" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=#000000;dashed=1;" target="pYyibpMPFkazpCoWwxyG-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="377.0000000000001" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=#FFFFFF;strokeColor=#000000;" value="RecomendationEngine" vertex="1">
+          <mxGeometry height="300" width="130" x="470" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-21" edge="1" parent="1" source="pYyibpMPFkazpCoWwxyG-7" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=#000000;dashed=1;" target="pYyibpMPFkazpCoWwxyG-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="632" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=#FFFFFF;strokeColor=#000000;" value="FrameRepository" vertex="1">
+          <mxGeometry height="300" width="100" x="680" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-11" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=9;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-standard; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;detectFaceShape(imageFile)&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="220" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-13" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=9;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-standard;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;faceShape&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="230" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-16" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-standard; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;&lt;font&gt;getRecommendedFrames(faceShape)&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="279" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-22" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-standard; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;&lt;font&gt;frameList&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="100" x="600" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-24" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-standard; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;&lt;font&gt;sortedFrames&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="279" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-25" edge="1" parent="1" source="pYyibpMPFkazpCoWwxyG-6" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=#000000;" target="pYyibpMPFkazpCoWwxyG-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="535" y="190" as="sourcePoint" />
+            <mxPoint x="730" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-18" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-standard; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;&lt;font&gt;findByFaceShape(faceShape)&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="540" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pYyibpMPFkazpCoWwxyG-28" parent="1" style="text;whiteSpace=wrap;html=1;rotation=25;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-standard; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; float: none; display: inline !important;&quot;&gt;&lt;font&gt;renderRecommendations(sortedFrames)&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="201" x="40" y="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
